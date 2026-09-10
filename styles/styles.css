@@ -2,6 +2,17 @@ main {
     max-width: 840px;
 }
 
+nav a {
+    color: rgb(9, 71, 244);
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
+
+}
+
 main img {
     width: 150px;
     height: auto;
