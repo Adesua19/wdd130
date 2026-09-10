@@ -2,6 +2,11 @@ main {
     max-width: 840px;
 }
 
+nav {
+    background-color: #333;
+    padding: auto;
+}
+
 nav a {
     color: rgb(9, 71, 244);
     padding: 10px;
@@ -10,12 +15,14 @@ nav a {
 
 h1 {
     color: steelblue;
-
 }
 
 main img {
     width: 150px;
     height: auto;
+    border: #000;
+    padding: 1em;
+    box-shadow: 0;
 }
 
 p {
