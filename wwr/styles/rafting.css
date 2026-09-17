@@ -27,6 +27,8 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    background-color: #ffff;
+    color: var(--accent2-color);
 }
 
 h1,
@@ -67,6 +69,14 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
     /* white text- make sure there is enough contrast with the bacground- color*/
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .hero article img {
