@@ -27,8 +27,10 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
-    background-color: #ffff;
-    color: var(--accent2-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
 }
 
 h1,
@@ -47,6 +49,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    color: var(--accent2-color);
 }
 
 .hero {
