@@ -38,7 +38,7 @@ h2 {
 header {
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: auto;
+    align-items: center;
     padding: 16px 0;
 }
 
@@ -137,7 +137,7 @@ header nav a {
 
 .gallery {
     display: flex;
-    justify-self: space-between;
+    justify-content: space-between;
     gap: 12px;
 }
 
