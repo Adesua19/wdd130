@@ -57,9 +57,14 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: var(--accent2-color);
+    color: var(--primary-color);
     font-weight: bold;
     padding: 8px 12px;
+}
+
+header nav a:hover {
+    background-color: var(--accent2-color);
+    border-radius: 4px;
 }
 
 .hero {
