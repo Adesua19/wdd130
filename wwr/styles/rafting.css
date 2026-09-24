@@ -47,10 +47,11 @@ header img {
     height: auto;
 }
 
-header nav {
+header nav ul {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -60,6 +61,7 @@ header nav a {
     color: var(--primary-color);
     font-weight: bold;
     padding: 8px 12px;
+    display: inline-block;
 }
 
 header nav a:hover {
