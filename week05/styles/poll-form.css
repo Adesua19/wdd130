@@ -28,15 +28,15 @@ form {
     margin: auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 /0.1);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     background-color: #eee;
     display: grid;
 }
 
 fieldset {
     display: grid;
-    gap: .5rem;
-    margin: 1rem;
+    gap: 2rem;
+    margin: 2rem;
     border: 1px solid rgb(0 0 0 /0.2);
 }
 
@@ -44,4 +44,30 @@ legend {
     padding: 0.5rem;
     color: navy;
     font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: ;
+    height: ;
+    vertical-align: bottom;
 }
