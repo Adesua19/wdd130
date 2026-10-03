@@ -193,3 +193,188 @@ footer p {
     height: 32px;
     display: block;
 }
+
+/* ===================================
+   Contact Us Page Additions
+   =================================== */
+
+/* Company Header Info */
+.company-header {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.company-header address {
+    font-style: normal;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.company-header address a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.company-header address a:hover {
+    text-decoration: underline;
+}
+
+/* Two-Column Grid: Map & Form */
+.contact-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+    align-items: start;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #fdfdfd;
+    padding: 16px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-row label,
+.form-row .label-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 0.9rem;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+.radio-row {
+    align-items: flex-start;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.radio-options label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkbox-row {
+    grid-template-columns: 1fr;
+}
+
+.checkbox-row label {
+    font-weight: normal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Accessible Submit Button */
+.submit-btn {
+    grid-column: 1 / -1;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--accent1-color);
+}
+
+.submit-btn:focus {
+    outline: 2px solid var(--accent2-color);
+}
+
+/* Employee Section ("We Are Here to Serve You") */
+.team-container {
+    margin-bottom: 32px;
+    padding: 20px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.team-container h2 {
+    margin-bottom: 20px;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.employee-grid figure {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    background-color: #fcfcfc;
+}
+
+.employee-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 4px;
+}
+
+.employee-grid figcaption {
+    margin-top: 8px;
+}
+
+.employee-grid figcaption h3 {
+    font-size: 0.95rem;
+    color: var(--accent1-color);
+    margin-bottom: 4px;
+}
+
+.employee-grid figcaption p {
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
