@@ -194,11 +194,6 @@ footer p {
     display: block;
 }
 
-/* ===================================
-   Contact Us Page Additions
-   =================================== */
-
-/* Company Header Info */
 .company-header {
     text-align: center;
     margin: 24px 0;
@@ -220,7 +215,6 @@ footer p {
     text-decoration: underline;
 }
 
-/* Two-Column Grid: Map & Form */
 .contact-main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -237,7 +231,6 @@ footer p {
     border-radius: 4px;
 }
 
-/* Contact Form */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -305,7 +298,6 @@ footer p {
     gap: 8px;
 }
 
-/* Accessible Submit Button */
 .submit-btn {
     grid-column: 1 / -1;
     padding: 10px;
@@ -327,7 +319,6 @@ footer p {
     outline: 2px solid var(--accent2-color);
 }
 
-/* Employee Section ("We Are Here to Serve You") */
 .team-container {
     margin-bottom: 32px;
     padding: 20px;
