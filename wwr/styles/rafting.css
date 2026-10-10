@@ -194,7 +194,6 @@ footer p {
     display: block;
 }
 
-/* Contact Us Styles */
 .company-header {
     text-align: center;
     margin: 24px 0;
@@ -403,33 +402,6 @@ footer p {
     background-color: var(--accent1-color);
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 24px 0;
-}
-
-.grid-card {
-    border: 1px solid var(--accent1-color);
-    border-radius: 4px;
-    padding: 16px;
-    background-color: #ffffff;
-}
-
-.grid-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-bottom: 12px;
-}
-
-.grid-card h2 {
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-}
-
 .newsletter-section {
     background-color: #f8fafc;
     border: 1px solid var(--accent1-color);
@@ -446,26 +418,6 @@ footer p {
     gap: 16px;
     margin-top: 16px;
     flex-wrap: wrap;
-}
-
-.newsletter-form .form-item {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.newsletter-form label {
-    font-weight: bold;
-    font-size: 0.85rem;
-    margin-bottom: 4px;
-    color: var(--accent1-color);
-}
-
-.newsletter-form input {
-    padding: 8px;
-    border: 1px solid var(--accent1-color);
-    border-radius: 4px;
-    min-width: 200px;
 }
 
 .trips-grid {
