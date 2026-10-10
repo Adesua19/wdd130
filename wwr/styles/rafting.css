@@ -1,12 +1,12 @@
 :root {
     --primary-color: #055a05;
-    /* forest green*/
+
     --secondary-color: #f4a261;
-    /* warm sand */
+
     --accent1-color: #264653;
-    /* dark slate blue */
+
     --accent2-color: #e9c46a;
-    /* light golden yellow */
+
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
 }
@@ -486,4 +486,50 @@ footer p {
 
 .trips-table tbody tr:nth-child(even) {
     background-color: #f1f5f9;
+}
+
+.purpose.grid p {
+    padding: 0 16px;
+    line-height: 1.6;
+
+}
+
+.purpose-section {
+    background-color: #f8fafc;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    padding: 32px;
+    margin: 32px auto;
+    max-width: 800px;
+}
+
+.purpose-section h2 {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.purpose.grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.purpose.grid:last-child {
+    margin-bottom: 0;
+}
+
+.purpose.grid img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.purpose.grid p {
+    line-height: 1.6;
+    font-size: 0.95rem;
 }
